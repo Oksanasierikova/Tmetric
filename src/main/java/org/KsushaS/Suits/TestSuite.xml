@@ -1,0 +1,74 @@
+<suite name="Suite1">
+    <test name="test1" enabled="true">
+        <classes>
+            <class name="org.KsushaS.RunTestsForTmetric.Run"/>
+            <methods>
+                <include name="openSignUpToTmetricPage"></include>
+            </methods>
+        </classes>
+    </test>
+    <test name="test2" enabled="true">
+        <classes>
+            <class name="org.KsushaS.RunTestsForTmetric.Run"/>
+            <methods>
+                <include name="checkRegister"></include>
+            </methods>
+        </classes>
+    </test>
+    <test name="test3" enabled="true">
+        <classes>
+            <class name="org.KsushaS.RunTestsForTmetric.Run"/>
+            <methods>
+                <include name="clickLinkLogin"></include>
+            </methods>
+        </classes>
+    </test>
+    <test name="test4" enabled="true">
+        <classes>
+            <class name="org.KsushaS.RunTestsForTmetric.Run"/>
+            <methods>
+                <include name="openLoginToTmetricPage"></include>
+            </methods>
+        </classes>
+    </test>
+    <test name="test5" enabled="true">
+        <classes>
+            <class name="org.KsushaS.RunTestsForTmetric.Run"/>
+            <methods>
+                <include name="checkLogin"></include>
+            </methods>
+        </classes>
+    </test>
+    <test name="test6" enabled="true">
+        <classes>
+            <class name="org.KsushaS.RunTestsForTmetric.Run"/>
+            <methods>
+                <include name="clickSignUpFromLoginToTmetricPage"></include>
+            </methods>
+        </classes>
+    </test>
+    <test name="test7" enabled="true">
+        <classes>
+            <class name="org.KsushaS.RunTestsForTmetric.Run"/>
+            <methods>
+                <include name="clickForgotYourPassword"></include>
+            </methods>
+        </classes>
+    </test>
+    <test name="test8" enabled="true">
+        <classes>
+            <class name="org.KsushaS.RunTestsForTmetric.Run"/>
+            <methods>
+                <include name="checkForgotYourPasswordPage"></include>
+            </methods>
+        </classes>
+    </test>
+    <test name="test9" enabled="true">
+        <classes>
+            <class name="org.KsushaS.RunTestsForTmetric.Run"/>
+            <methods>
+                <include name="checkForgotYourPasswordPageSentResetLink"></include>
+            </methods>
+        </classes>
+    </test>
+</suite>
